@@ -1,0 +1,29 @@
+.delivered{
+background-color: #0d81609e;
+padding: 3px 10px;
+font-weight: 600;
+color: #00ffbb;
+border-radius: 10px;
+}
+
+.cancelled{
+background-color: rgba(255, 0, 0, 0.379);
+padding: 3px 10px;
+font-weight: 600;
+color: rgb(254, 120, 120);
+border-radius: 10px;
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root{
+    background-color: #17171a !important;
+}
+
+.css-xn32gr-MuiTableCell-root{
+    color: white !important;
+    border-bottom: 1px solid rgb(62 62 62) !important;
+}
+
+.css-1ex1afd-MuiTableCell-root{
+    color: white !important;
+    border-bottom: 1px solid rgb(62 62 62) !important;
+}

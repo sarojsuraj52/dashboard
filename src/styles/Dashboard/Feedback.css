@@ -1,0 +1,14 @@
+.feed-profile{
+    display: flex;
+    align-items: center;
+}
+
+.feed p{
+    margin: 5px;
+    color: grey;
+}
+
+.css-1c99szj-MuiRating-icon{
+    color: white !important;
+}
+

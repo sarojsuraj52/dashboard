@@ -1,0 +1,48 @@
+.sidebar-container {
+  background-color: #202028;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 75px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.logo {
+  color: #7294ff;
+  font-size: 36px !important;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.navigation-container {
+  text-align: center;
+  align-items: center;
+}
+
+.navigation-container > div {
+  margin: 30px 0;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.navigation-container > div:hover {
+  color: #7294ff;
+}
+
+.navigation-container > div:nth-child(1) {
+  color: #7294ff;
+  border-left: 4px solid #7294ff;
+}
+
+.logout {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  color: aliceblue;
+  margin-bottom: 40px;
+  cursor: pointer;
+}

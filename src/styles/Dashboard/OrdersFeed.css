@@ -1,0 +1,38 @@
+.ordersfeed-container {
+  display: flex;
+  margin: 30px 0;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.order-table {
+  display: flex;
+  flex: 1 1 63.5%; 
+  flex-wrap: wrap;
+  gap: 16px;
+  background-color: #17171a;
+  border-radius: 10px;
+  padding: 0 15px 15px 15px;
+}
+
+.feedack {
+  display: flex;
+  flex: 1 1 30%; 
+  background-color: #17171a;
+  border-radius: 10px;
+  padding: 0 15px 15px 15px;
+  /* justify-content: space-between; */
+  flex-direction: column;
+}
+
+.order-table h4 {
+  margin-bottom: 0;
+}
+
+.feedback-container{
+  display: flex;
+  max-height: 500px;
+  overflow: auto;
+}

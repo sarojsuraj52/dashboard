@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  background-color: black;
+  color: white;
+  font-family: "poppins";
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+/* 1. Correct the line height in all browsers. */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* 2. Remove the margin in all browsers. */
+ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+text{
+  fill: white !important;
+}
+
+
+.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-tick {
+  stroke: white !important;
+}
+
+.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-line{
+  stroke: white !important;
+}
+
+
+/* For Chrome, Safari, and Edge */
+::-webkit-scrollbar {
+  width: 12px; /* Set the width of the scrollbar */
+  background: transparent; /* Hide the scrollbar track background */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scroll button */
+  border-radius: 6px; /* Rounded corners for the scroll button */
+  border: 3px solid transparent; /* Add space around the scroll button */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Darker color on hover for the scroll button */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin; /* Set the width of the scrollbar */
+  scrollbar-color: #888 transparent; /* Color of the scroll button and transparent track */
+}
+
+

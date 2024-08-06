@@ -1,0 +1,24 @@
+/* App.css */
+.app {
+    display: block; /* Default display */
+  }
+  
+  .error-message {
+    display: none;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Hide app content and show error message when screen width is less than 400px */
+  @media (max-width: 400px) {
+    .app {
+      display: none;
+    }
+  
+    .error-message {
+      display: block;
+    }
+  }
+  
